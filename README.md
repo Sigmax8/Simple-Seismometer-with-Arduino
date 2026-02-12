@@ -6,7 +6,7 @@ Bills of Materials:
 - 1x accelerometer MPU-6050
 
 Hardware Scheme:
-
+![Schema Hardware](hardware_scheme.png)
 
 Libraries used:
 - <Adafruit_MPU6050.h>
