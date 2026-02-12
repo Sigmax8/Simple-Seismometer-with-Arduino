@@ -22,10 +22,11 @@ void loop() {
   sensors_event_t a, g, temp;
   mpu.getEvent(&a, &g, &temp);
 
-  float totalForce = sqrt(sq(a.acceleration.x) + sq(a.acceleration.y) + sq(a.acceleration.z)) - 9.81; //We subtract the gravity acceleration
+  float totalForce = sqrt(sq(a.acceleration.x) + sq(a.acceleration.y) + sq(a.acceleration.z)) - 9.81; //We subtract the gravitational acceleration
 
   Serial.println(totalForce); //Just a single line in the plotter
 
   delay(10);
 } 
 }
+
