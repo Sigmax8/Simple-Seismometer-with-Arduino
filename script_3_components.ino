@@ -25,9 +25,10 @@ void loop() {
   Serial.print(",");
   Serial.print("Y:"); Serial.print(a.acceleration.y);
   Serial.print(",");
-  Serial.print("Z:"); Serial.println(a.acceleration.z - 9.81); //We subtract the gravitational acceleration 
+  Serial.print("Z:"); Serial.println(a.acceleration.z - 9.81); //We subtract the gravitational acceleration
 
   delay(10); 
 }
+
 
 
