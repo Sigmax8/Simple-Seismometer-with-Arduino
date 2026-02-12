@@ -11,3 +11,6 @@ Hardware Scheme:
 Libraries used:
 - <Adafruit_MPU6050.h>
 - <Wire.h>
+
+I created two versions of the script. The first one plots the x, y and z components of acceleration,
+while the second one compute the vectorial sum of them, plotting a single line.
